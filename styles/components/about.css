@@ -1,0 +1,139 @@
+.about__item1 {
+    margin-bottom: 2rem;
+}
+
+.about__item1 > * + * {
+    margin-top: 1rem;
+}
+
+.about__title {
+    font-size: var(--size-md);
+    font-family: var(--font-primary);
+}
+
+.about__description1 {
+    font-size: var(--size-sm);
+    font-family: var(--font-secondary);
+    color: var(--clr-muted);
+}
+
+.about__description2 {
+    font-size: var(--size-sm);
+}
+
+.about__btn {
+    font-size: var(--size-sm);
+}
+
+.about__discord {
+    vertical-align: middle;
+    margin-left: 0.25rem;
+}
+
+.about__item2 > * + * {
+    margin-top: 2rem;
+}
+
+.about__label {
+    color: var(--clr-text);
+    font-family: var(--font-secondary);
+    font-size: var(--size-xs);
+    font-weight: 400;
+}
+
+.about__stat {
+    font-size: var(--size-3xl);
+    color: var(--clr-light);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.about__strat-span {
+    color: var(--clr-muted);
+}
+
+
+
+    @media (min-width: 475px) {
+        .about__title {
+            font-size: var(--size-3xl);
+        }
+        .about__description1 {
+            font-size: var(--size-base);
+        }
+        .about__description2 {
+            font-size: var(--size-base);
+        }
+        .about__btn {
+            font-size: var(--size-base);
+        }
+        .about__label {
+            font-size: var(--size-sm);
+        }
+        .about__stat {
+            font-size: var(--size-4xl);
+        }
+} 
+
+
+
+
+    @media (min-width: 1024px) {
+        .about__description1 {
+            max-width: 60ch;
+        }
+        .about__description2 {
+            max-width: 60ch;
+        }
+} 
+
+ 
+
+    @media (min-width: 1280px) {
+        .about__item1 {
+            margin-bottom: 0;
+        }
+
+        .about__container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .about__title {
+            font-size: var(--size-4xl);
+        }
+        .about__description1 {
+            font-size: var(--size-lg);
+        }
+        .about__description2 {
+            font-size: var(--size-lg);
+        }
+        .about__btn {
+            font-size: var(--size-lg);
+        }
+        .about__label {
+            font-size: var(--size-base);
+            text-align: end;
+        }
+        .about__stat {
+            font-size: var(--size-5xl);
+            text-align: end;
+        }
+        .about__item1 > * + * {
+            margin-top: 2rem;
+        }
+
+        .about__item2 > * + * {
+            margin-top: 3rem;
+        }
+} 
+
+    @media (min-width: 1536px) {
+        .about__description1 {
+            max-width: 70ch;
+        }
+        .about__description2 {
+            max-width: 70ch;
+        }
+
+} 
